@@ -4,6 +4,7 @@
 ### 两句代码实现时间轴
 > 使用方法
 ```
+引入头文件 #import "NSDate+Category.h"
 //把时间字符串转化成标准的时间格式
 NSDate *timeDate = [NSDate timeStringToDate:timeString];
 //转换成时间轴
