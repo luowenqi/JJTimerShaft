@@ -6,7 +6,7 @@
 //  Copyright © 2016年 30-陈辉华. All rights reserved.
 //
 
-#import "NSDate+Category.h"
+#import "NSDate+JJCategory.h"
 #import "JJDateFormatter.h"
 #import "JJCalender.h"
 

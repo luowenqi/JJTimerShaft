@@ -15,7 +15,7 @@
 		A4A960F31E9F799500669CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A960F11E9F799500669CE5 /* LaunchScreen.storyboard */; };
 		A4A961011E9F79CF00669CE5 /* JJCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A960FC1E9F79CF00669CE5 /* JJCalender.m */; };
 		A4A961021E9F79CF00669CE5 /* JJDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A960FE1E9F79CF00669CE5 /* JJDateFormatter.m */; };
-		A4A961031E9F79CF00669CE5 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A961001E9F79CF00669CE5 /* NSDate+Category.m */; };
+		A4A961031E9F79CF00669CE5 /* NSDate+JJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A961001E9F79CF00669CE5 /* NSDate+JJCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,8 @@
 		A4A960FC1E9F79CF00669CE5 /* JJCalender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCalender.m; sourceTree = "<group>"; };
 		A4A960FD1E9F79CF00669CE5 /* JJDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJDateFormatter.h; sourceTree = "<group>"; };
 		A4A960FE1E9F79CF00669CE5 /* JJDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJDateFormatter.m; sourceTree = "<group>"; };
-		A4A960FF1E9F79CF00669CE5 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
-		A4A961001E9F79CF00669CE5 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		A4A960FF1E9F79CF00669CE5 /* NSDate+JJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JJCategory.h"; sourceTree = "<group>"; };
+		A4A961001E9F79CF00669CE5 /* NSDate+JJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JJCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 				A4A960FC1E9F79CF00669CE5 /* JJCalender.m */,
 				A4A960FD1E9F79CF00669CE5 /* JJDateFormatter.h */,
 				A4A960FE1E9F79CF00669CE5 /* JJDateFormatter.m */,
-				A4A960FF1E9F79CF00669CE5 /* NSDate+Category.h */,
-				A4A961001E9F79CF00669CE5 /* NSDate+Category.m */,
+				A4A960FF1E9F79CF00669CE5 /* NSDate+JJCategory.h */,
+				A4A961001E9F79CF00669CE5 /* NSDate+JJCategory.m */,
 			);
 			path = TimeShaft;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 			files = (
 				A4A960EB1E9F799500669CE5 /* ViewController.m in Sources */,
 				A4A961011E9F79CF00669CE5 /* JJCalender.m in Sources */,
-				A4A961031E9F79CF00669CE5 /* NSDate+Category.m in Sources */,
+				A4A961031E9F79CF00669CE5 /* NSDate+JJCategory.m in Sources */,
 				A4A960E81E9F799500669CE5 /* AppDelegate.m in Sources */,
 				A4A960E51E9F799500669CE5 /* main.m in Sources */,
 				A4A961021E9F79CF00669CE5 /* JJDateFormatter.m in Sources */,
@@ -337,6 +337,7 @@
 				A4A960F91E9F799500669CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
