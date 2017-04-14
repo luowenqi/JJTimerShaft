@@ -1,9 +1,9 @@
 //
-//  HHCalender.m
-//  dealTime
+//  AppDelegate.m
+//  JJTimeShaft
 //
-//  Created by xiaohuihui on 2016/12/5.
-//  Copyright © 2016年 30-陈辉华. All rights reserved.
+//  Created by 罗文琦 on 2017/4/13.
+//  Copyright © 2017年 罗文琦. All rights reserved.
 //
 
 #import "JJCalender.h"
