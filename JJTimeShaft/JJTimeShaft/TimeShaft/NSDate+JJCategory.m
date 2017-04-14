@@ -13,7 +13,7 @@
 @implementation NSDate (Category)
 
 + (NSDate *)timeStringToDate: (NSString *)timeString {
-    /** /// "Sat Dec 03 19:56:38 +0800 2016",根据回调的时间字符串制定不一样的日期格式 */
+    /** /// @"Mon Apr 13 11:56:38 +0800 2017",根据回调的时间字符串制定不一样的日期格式 */
     NSString * formatterString = @"EEE  MMM dd HH:mm:ss zzz yyyy";
     /** DateFormatter, Calendar初始化比较消耗内存, 定义成单例 */
     [JJDateFormatter sharedFormatter].dateFormat = formatterString;
@@ -40,7 +40,7 @@
         [JJDateFormatter sharedFormatter].locale =  [NSLocale localeWithLocaleIdentifier: @"en"];
         return [[JJDateFormatter sharedFormatter] stringFromDate:self];
     } else {
-        //首先要取到今年是哪一年 2016
+        //首先要取到今年是哪一年 2017
         //再取到当前的date是哪一年, 再做比较
         NSInteger thisYear = [[JJCalender sharedCalender] component:NSCalendarUnitYear fromDate: [NSDate date]];
         NSInteger dateYear = [[JJCalender sharedCalender] component:NSCalendarUnitYear fromDate: self];
